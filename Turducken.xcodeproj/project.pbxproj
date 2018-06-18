@@ -260,7 +260,7 @@
 		1FC434931F149723001DE2A5 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1FC434F51F149991001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
 		1FC434F61F149991001DE2A5 /* MyStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; };
-		1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */; };
+		1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary-iOS.a */; };
 		1FC435091F149A22001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
 		1FC4350A1F149A36001DE2A5 /* libMyStaticLibrary-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */; };
 		1FC4350B1F149A4D001DE2A5 /* MyStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; };
@@ -320,6 +320,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A821EF5523800C2D16C;
 			remoteInfo = MyQuickLookPreview;
+		};
+		1F458A5120D8260300BBFBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC434F01F149990001DE2A5;
+			remoteInfo = "MyStaticLibrary-iOS";
 		};
 		1F7961551FE4328100BD9C26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -963,7 +970,7 @@
 		1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
 		1FA188E41EF5FF1400BA7993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = MyMetalLibrary.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary-iOS.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "MyMetalLibrary-iOS.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyMetalLibrary.metal; sourceTree = "<group>"; };
 		1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "MyMetalLibrary-tvOS.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "MyMetalLibrary-macOS.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1183,7 +1190,7 @@
 		1FC078421E7B691100076178 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078441E7B691200076178 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
 		1FC078451E7B691200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyFramework-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078511E7B691200076178 /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		1FC078531E7B691200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC078651E7B695600076178 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1196,7 +1203,7 @@
 		1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
 		1FC4348B1F1496E2001DE2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC4348C1F1496E2001DE2A5 /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
-		1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC434F11F149990001DE2A5 /* libMyStaticLibrary-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStaticLibrary.h; sourceTree = "<group>"; };
 		1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStaticLibrary.m; sourceTree = "<group>"; };
 		1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1322,7 +1329,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary.a in Frameworks */,
+				1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary-iOS.a in Frameworks */,
 				1FC078571E7B691200076178 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1985,7 +1992,7 @@
 				1FC077ED1E7B681500076178 /* MyMacToday.appex */,
 				1FC078051E7B684600076178 /* MyXcodeSourceEditor.appex */,
 				1FC078421E7B691100076178 /* MyFramework.framework */,
-				1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */,
+				1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */,
 				1FC078651E7B695600076178 /* MyFramework.framework */,
 				1FC078771E7B698800076178 /* MyFramework.framework */,
 				1FC0787F1E7B698900076178 /* MyFramework-tvOSTests.xctest */,
@@ -1999,11 +2006,11 @@
 				1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */,
 				1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */,
 				1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */,
-				1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */,
+				1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary-iOS.metallib */,
 				1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */,
 				1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */,
 				1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */,
-				1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */,
+				1FC434F11F149990001DE2A5 /* libMyStaticLibrary-iOS.a */,
 				1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */,
 				1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */,
 				1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */,
@@ -3023,9 +3030,9 @@
 			productReference = 1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */ = {
+		1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary" */;
+			buildConfigurationList = 1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-iOS" */;
 			buildPhases = (
 				1FA188EB1EF5FF6200BA7993 /* Sources */,
 			);
@@ -3033,9 +3040,9 @@
 			);
 			dependencies = (
 			);
-			name = MyMetalLibrary;
+			name = "MyMetalLibrary-iOS";
 			productName = MyMetalLibrary;
-			productReference = 1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */;
+			productReference = 1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary-iOS.metallib */;
 			productType = "com.apple.product-type.metal-library";
 		};
 		1FA188F51EF5FFDD00BA7993 /* MyMetalLibrary-tvOS */ = {
@@ -3082,6 +3089,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1F458A5220D8260300BBFBFF /* PBXTargetDependency */,
 				1FC074BF1E7B424300076178 /* PBXTargetDependency */,
 				1FC074D61E7B44A700076178 /* PBXTargetDependency */,
 				1FC074ED1E7B456C00076178 /* PBXTargetDependency */,
@@ -3901,9 +3909,9 @@
 			productReference = 1FC078051E7B684600076178 /* MyXcodeSourceEditor.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
-		1FC078411E7B691100076178 /* MyFramework */ = {
+		1FC078411E7B691100076178 /* MyFramework-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework" */;
+			buildConfigurationList = 1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOS" */;
 			buildPhases = (
 				1FC0783D1E7B691100076178 /* Sources */,
 				1FC0783E1E7B691100076178 /* Frameworks */,
@@ -3914,14 +3922,14 @@
 			);
 			dependencies = (
 			);
-			name = MyFramework;
+			name = "MyFramework-iOS";
 			productName = MyFramework;
 			productReference = 1FC078421E7B691100076178 /* MyFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1FC078491E7B691200076178 /* MyFrameworkTests */ = {
+		1FC078491E7B691200076178 /* MyFramework-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFrameworkTests" */;
+			buildConfigurationList = 1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOSTests" */;
 			buildPhases = (
 				1FC078461E7B691200076178 /* Sources */,
 				1FC078471E7B691200076178 /* Frameworks */,
@@ -3932,9 +3940,9 @@
 			dependencies = (
 				1FC0784D1E7B691200076178 /* PBXTargetDependency */,
 			);
-			name = MyFrameworkTests;
+			name = "MyFramework-iOSTests";
 			productName = MyFrameworkTests;
-			productReference = 1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */;
+			productReference = 1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1FC078641E7B695600076178 /* MyFramework-watchOS */ = {
@@ -4044,9 +4052,9 @@
 			productReference = 1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1FC434F01F149990001DE2A5 /* MyStaticLibrary */ = {
+		1FC434F01F149990001DE2A5 /* MyStaticLibrary-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary" */;
+			buildConfigurationList = 1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-iOS" */;
 			buildPhases = (
 				1FC434ED1F149990001DE2A5 /* Sources */,
 				1FC434EE1F149990001DE2A5 /* Frameworks */,
@@ -4056,9 +4064,9 @@
 			);
 			dependencies = (
 			);
-			name = MyStaticLibrary;
+			name = "MyStaticLibrary-iOS";
 			productName = MyStaticLibrary;
-			productReference = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */;
+			productReference = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1FC434FF1F149A15001DE2A5 /* MyStaticLibrary-tvOS */ = {
@@ -4592,17 +4600,17 @@
 				1F7961AD1FE434D600BD9C26 /* MyMacSpotlightIndex */,
 				1FC077EC1E7B681500076178 /* MyMacToday */,
 				1FC078041E7B684600076178 /* MyXcodeSourceEditor */,
-				1FC078411E7B691100076178 /* MyFramework */,
-				1FC078491E7B691200076178 /* MyFrameworkTests */,
+				1FC078411E7B691100076178 /* MyFramework-iOS */,
+				1FC078491E7B691200076178 /* MyFramework-iOSTests */,
 				1FC078641E7B695600076178 /* MyFramework-watchOS */,
 				1FC078761E7B698800076178 /* MyFramework-tvOS */,
 				1FC0787E1E7B698900076178 /* MyFramework-tvOSTests */,
 				1FC078981E7B699800076178 /* MyFramework-macOS */,
 				1FC078A01E7B699800076178 /* MyFramework-macOSTests */,
-				1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */,
+				1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary-iOS */,
 				1FA188F51EF5FFDD00BA7993 /* MyMetalLibrary-tvOS */,
 				1FA189031EF6008D00BA7993 /* MyMetalLibrary-macOS */,
-				1FC434F01F149990001DE2A5 /* MyStaticLibrary */,
+				1FC434F01F149990001DE2A5 /* MyStaticLibrary-iOS */,
 				1FC4350F1F149A5D001DE2A5 /* MyStaticLibrary-watchOS */,
 				1FC434FF1F149A15001DE2A5 /* MyStaticLibrary-tvOS */,
 				1FC4352E1F149ADC001DE2A5 /* MyStaticLibrary-macOS */,
@@ -5762,6 +5770,11 @@
 			target = 1F338A821EF5523800C2D16C /* MyQuickLookPreview */;
 			targetProxy = 1F338A8D1EF5523900C2D16C /* PBXContainerItemProxy */;
 		};
+		1F458A5220D8260300BBFBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC434F01F149990001DE2A5 /* MyStaticLibrary-iOS */;
+			targetProxy = 1F458A5120D8260300BBFBFF /* PBXContainerItemProxy */;
+		};
 		1F7961561FE4328100BD9C26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F79614C1FE4328100BD9C26 /* MyFileProviderUI */;
@@ -6009,12 +6022,12 @@
 		};
 		1FC0784D1E7B691200076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC078411E7B691100076178 /* MyFramework */;
+			target = 1FC078411E7B691100076178 /* MyFramework-iOS */;
 			targetProxy = 1FC0784C1E7B691200076178 /* PBXContainerItemProxy */;
 		};
 		1FC078561E7B691200076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC078411E7B691100076178 /* MyFramework */;
+			target = 1FC078411E7B691100076178 /* MyFramework-iOS */;
 			targetProxy = 1FC078551E7B691200076178 /* PBXContainerItemProxy */;
 		};
 		1FC0786B1E7B695600076178 /* PBXTargetDependency */ = {
@@ -9768,7 +9781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary" */ = {
+		1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FA188F21EF5FF6200BA7993 /* Debug */,
@@ -10209,7 +10222,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework" */ = {
+		1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC0785A1E7B691200076178 /* Debug */,
@@ -10218,7 +10231,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFrameworkTests" */ = {
+		1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC0785E1E7B691200076178 /* Debug */,
@@ -10281,7 +10294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary" */ = {
+		1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC434F81F149991001DE2A5 /* Debug */,

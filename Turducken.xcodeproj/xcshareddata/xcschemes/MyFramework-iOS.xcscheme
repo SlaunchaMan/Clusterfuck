@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC074801E7B41AD00076178"
-               BuildableName = "Turducken.app"
-               BlueprintName = "Turducken"
+               BlueprintIdentifier = "1FC078411E7B691100076178"
+               BuildableName = "MyFramework.framework"
+               BlueprintName = "MyFramework-iOS"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC074941E7B41AD00076178"
-               BuildableName = "TurduckenTests.xctest"
-               BlueprintName = "TurduckenTests"
-               ReferencedContainer = "container:Turducken.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC078491E7B691200076178"
                BuildableName = "MyFramework-iOSTests.xctest"
                BlueprintName = "MyFramework-iOSTests"
@@ -52,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BlueprintIdentifier = "1FC078411E7B691100076178"
+            BuildableName = "MyFramework.framework"
+            BlueprintName = "MyFramework-iOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BlueprintIdentifier = "1FC078411E7B691100076178"
+            BuildableName = "MyFramework.framework"
+            BlueprintName = "MyFramework-iOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BlueprintIdentifier = "1FC078411E7B691100076178"
+            BuildableName = "MyFramework.framework"
+            BlueprintName = "MyFramework-iOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC078411E7B691100076178"
-               BuildableName = "MyFramework.framework"
-               BlueprintName = "MyFramework"
+               BlueprintIdentifier = "1FC434F01F149990001DE2A5"
+               BuildableName = "libMyStaticLibrary-iOS.a"
+               BlueprintName = "MyStaticLibrary-iOS"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC078491E7B691200076178"
-               BuildableName = "MyFrameworkTests.xctest"
-               BlueprintName = "MyFrameworkTests"
-               ReferencedContainer = "container:Turducken.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC078411E7B691100076178"
-            BuildableName = "MyFramework.framework"
-            BlueprintName = "MyFramework"
-            ReferencedContainer = "container:Turducken.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC078411E7B691100076178"
-            BuildableName = "MyFramework.framework"
-            BlueprintName = "MyFramework"
+            BlueprintIdentifier = "1FC434F01F149990001DE2A5"
+            BuildableName = "libMyStaticLibrary-iOS.a"
+            BlueprintName = "MyStaticLibrary-iOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1FC078411E7B691100076178"
-            BuildableName = "MyFramework.framework"
-            BlueprintName = "MyFramework"
+            BlueprintIdentifier = "1FC434F01F149990001DE2A5"
+            BuildableName = "libMyStaticLibrary-iOS.a"
+            BlueprintName = "MyStaticLibrary-iOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
